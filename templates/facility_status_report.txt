@@ -1,0 +1,19 @@
+------------------------------------------------------------------------------------
+%s
+-----------
+Rate per Day: %s
+Cost per Day: %s
+
+Direct Links:
+%s
+
+Active Inventory:
+	Item ID		Quantity
+%s
+
+Depleted (Used-Up) Inventory: %s
+
+Schedule:
+Day:		%s 
+Available:	%s
+------------------------------------------------------------------------------------

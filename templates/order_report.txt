@@ -1,0 +1,17 @@
+------------------------------------------------------------------------------------
+Order #%s
+  Order Id:     %s
+  Order Time:   Day %s
+  Destination:  %s
+  List of Order Items:
+%s
+
+Processing Solution:
+	Total Cost:        %s
+	1st Delivery Day:  %s
+	Last Delivery Day: %s
+	Order Items:
+	
+	       Item ID    Quantity   Cost       # Sources Used  First Day  Last Day
+%s
+------------------------------------------------------------------------------------

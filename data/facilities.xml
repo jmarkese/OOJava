@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facilities>
+	<facility name="Seattle, WA">
+		<facility_name>Seattle, WA</facility_name>
+		<id>1</id>
+		<rate_per_day>8</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="San Francisco, CA">
+		<facility_name>San Francisco, CA</facility_name>
+		<id>2</id>
+		<rate_per_day>12</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Los Angeles, CA">
+		<facility_name>Los Angeles, CA</facility_name>
+		<id>3</id>
+		<rate_per_day>10</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Phoenix, AZ">
+		<facility_name>Phoenix, AZ</facility_name>
+		<id>4</id>
+		<rate_per_day>8</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Denver, CO">
+		<facility_name>Denver, CO</facility_name>
+		<id>5</id>
+		<rate_per_day>10</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Santa Fe, NM">
+		<facility_name>Santa Fe, NM</facility_name>
+		<id>6</id>
+		<rate_per_day>8</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Fargo, ND">
+		<facility_name>Fargo, ND</facility_name>
+		<id>7</id>
+		<rate_per_day>8</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Austin, TX">
+		<facility_name>Austin, TX</facility_name>
+		<id>8</id>
+		<rate_per_day>10</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="St. Louis, MO">
+		<facility_name>St. Louis, MO</facility_name>
+		<id>9</id>
+		<rate_per_day>12</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Chicago, IL">
+		<facility_name>Chicago, IL</facility_name>
+		<id>10</id>
+		<rate_per_day>10</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="New Orleans, LA">
+		<facility_name>New Orleans, LA</facility_name>
+		<id>11</id>
+		<rate_per_day>10</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Nashville, TN">
+		<facility_name>Nashville, TN</facility_name>
+		<id>12</id>
+		<rate_per_day>8</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Detroit, MI">
+		<facility_name>Detroit, MI</facility_name>
+		<id>13</id>
+		<rate_per_day>10</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Boston, MA">
+		<facility_name>Boston, MA</facility_name>
+		<id>14</id>
+		<rate_per_day>10</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="New York City, NY">
+		<facility_name>New York City, NY</facility_name>
+		<id>15</id>
+		<rate_per_day>14</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Norfolk, VA">
+		<facility_name>Norfolk, VA</facility_name>
+		<id>16</id>
+		<rate_per_day>10</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Atlanta, GA">
+		<facility_name>Atlanta, GA</facility_name>
+		<id>17</id>
+		<rate_per_day>10</rate_per_day>
+		<cost>300</cost>
+	</facility>
+	<facility name="Miami, FL">
+		<facility_name>Miami, FL</facility_name>
+		<id>18</id>
+		<rate_per_day>12</rate_per_day>
+		<cost>300</cost>
+	</facility>
+<network>
+	<travel_condition name="standard" speed="50" hours_per_day="8" />
+	<travel_condition name="illegal" speed="80" hours_per_day="12" />
+	<travel_condition name="snow" speed="40" hours_per_day="8" />
+	<transportation_fee fee="500"/>
+	<transportation_links name="Seattle, WA">
+		<facility_name>Seattle, WA</facility_name>
+		<link>
+			<link_to>Fargo, ND</link_to>
+			<distance>1426</distance>
+		</link>
+		<link>
+			<link_to>San Francisco, CA</link_to>
+			<distance>808</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="San Francisco, CA">
+		<facility_name>San Francisco, CA</facility_name>
+		<link>
+			<link_to>Seattle, WA</link_to>
+			<distance>808</distance>
+		</link>
+		<link>
+			<link_to>Denver, CO</link_to>
+			<distance>1249</distance>
+		</link>
+		<link>
+			<link_to>Los Angeles, CA</link_to>
+			<distance>382</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Los Angeles, CA">
+		<facility_name>Los Angeles, CA</facility_name>
+		<link>
+			<link_to>San Francisco, CA</link_to>
+			<distance>382</distance>
+		</link>
+		<link>
+			<link_to>Phoenix, AZ</link_to>
+			<distance>372</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Phoenix, AZ">
+		<facility_name>Phoenix, AZ</facility_name>
+		<link>
+			<link_to>Los Angeles, CA</link_to>
+			<distance>372</distance>
+		</link>
+		<link>
+			<link_to>Santa Fe, NM</link_to>
+			<distance>480</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Denver, CO">
+		<facility_name>Denver, CO</facility_name>
+		<link>
+			<link_to>San Francisco, CA</link_to>
+			<distance>1249</distance>
+		</link>
+		<link>
+			<link_to>Santa Fe, NM</link_to>
+			<distance>392</distance>
+		</link>
+		<link>
+			<link_to>Fargo, ND</link_to>
+			<distance>889</distance>
+		</link>
+		<link>
+			<link_to>St. Louis, MO</link_to>
+			<distance>851</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Santa Fe, NM">
+		<facility_name>Santa Fe, NM</facility_name>
+		<link>
+			<link_to>Phoenix, AZ</link_to>
+			<distance>480</distance>
+		</link>
+		<link>
+			<link_to>Denver, CO</link_to>
+			<distance>392</distance>
+		</link>
+		<link>
+			<link_to>St. Louis, MO</link_to>
+			<distance>1032</distance>
+		</link>
+		<link>
+			<link_to>Austin, TX</link_to>
+			<distance>688</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Fargo, ND">
+		<facility_name>Fargo, ND</facility_name>
+		<link>
+			<link_to>Seattle, WA</link_to>
+			<distance>1426</distance>
+		</link>
+		<link>
+			<link_to>Denver, CO</link_to>
+			<distance>889</distance>
+		</link>
+		<link>
+			<link_to>Chicago, IL</link_to>
+			<distance>643</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Austin, TX">
+		<facility_name>Austin, TX</facility_name>
+		<link>
+			<link_to>Santa Fe, NM</link_to>
+			<distance>688</distance>
+		</link>
+		<link>
+			<link_to>St. Louis, MO</link_to>
+			<distance>825</distance>
+		</link>
+		<link>
+			<link_to>New Orleans, LA</link_to>
+			<distance>512</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="St. Louis, MO">
+		<facility_name>St. Louis, MO</facility_name>
+		<link>
+			<link_to>Chicago, IL</link_to>
+			<distance>297</distance>
+		</link>
+		<link>
+			<link_to>Nashville, TN</link_to>
+			<distance>309</distance>
+		</link>
+		<link>
+			<link_to>Austin, TX</link_to>
+			<distance>825</distance>
+		</link>
+		<link>
+			<link_to>Santa Fe, NM</link_to>
+			<distance>1032</distance>
+		</link>
+		<link>
+			<link_to>Denver, CO</link_to>
+			<distance>851</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Chicago, IL">
+		<facility_name>Chicago, IL</facility_name>
+		<link>
+			<link_to>Fargo, ND</link_to>
+			<distance>643</distance>
+		</link>
+		<link>
+			<link_to>St. Louis, MO</link_to>
+			<distance>297</distance>
+		</link>
+		<link>
+			<link_to>New York City, NY</link_to>
+			<distance>790</distance>
+		</link>
+		<link>
+			<link_to>Detroit, MI</link_to>
+			<distance>282</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="New Orleans, LA">
+		<facility_name>New Orleans, LA</facility_name>
+		<link>
+			<link_to>Austin, TX</link_to>
+			<distance>512</distance>
+		</link>
+		<link>
+			<link_to>Nashville, TN</link_to>
+			<distance>532</distance>
+		</link>
+		<link>
+			<link_to>Atlanta, GA</link_to>
+			<distance>469</distance>
+		</link>
+		<link>
+			<link_to>Miami, FL</link_to>
+			<distance>864</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Nashville, TN">
+		<facility_name>Nashville, TN</facility_name>
+		<link>
+			<link_to>St. Louis, MO</link_to>
+			<distance>309</distance>
+		</link>
+		<link>
+			<link_to>New Orleans, LA</link_to>
+			<distance>532</distance>
+		</link>
+		<link>
+			<link_to>Norfolk, VA</link_to>
+			<distance>706</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Detroit, MI">
+		<facility_name>Detroit, MI</facility_name>
+		<link>
+			<link_to>Chicago, IL</link_to>
+			<distance>282</distance>
+		</link>
+		<link>
+			<link_to>New York City, NY</link_to>
+			<distance>614</distance>
+		</link>
+		<link>
+			<link_to>Boston, MA</link_to>
+			<distance>719</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Boston, MA">
+		<facility_name>Boston, MA</facility_name>
+		<link>
+			<link_to>Detroit, MI</link_to>
+			<distance>719</distance>
+		</link>
+		<link>
+			<link_to>New York City, NY</link_to>
+			<distance>215</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="New York City, NY">
+		<facility_name>New York City, NY</facility_name>
+		<link>
+			<link_to>Boston, MA</link_to>
+			<distance>215</distance>
+		</link>
+		<link>
+			<link_to>Detroit, MI</link_to>
+			<distance>614</distance>
+		</link>
+		<link>
+			<link_to>Chicago, IL</link_to>
+			<distance>790</distance>
+		</link>
+		<link>
+			<link_to>Norfolk, VA</link_to>
+			<distance>363</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Norfolk, VA">
+		<facility_name>Norfolk, VA</facility_name>
+		<link>
+			<link_to>New York City, NY</link_to>
+			<distance>363</distance>
+		</link>
+		<link>
+			<link_to>Nashville, TN</link_to>
+			<distance>706</distance>
+		</link>
+		<link>
+			<link_to>Atlanta, GA</link_to>
+			<distance>566</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Atlanta, GA">
+		<facility_name>Atlanta, GA</facility_name>
+		<link>
+			<link_to>Norfolk, VA</link_to>
+			<distance>566</distance>
+		</link>
+		<link>
+			<link_to>New Orleans, LA</link_to>
+			<distance>469</distance>
+		</link>
+		<link>
+			<link_to>Miami, FL</link_to>
+			<distance>663</distance>
+		</link>
+	</transportation_links>
+	<transportation_links name="Miami, FL">
+		<facility_name>Miami, FL</facility_name>
+		<link>
+			<link_to>Atlanta, GA</link_to>
+			<distance>663</distance>
+		</link>
+		<link>
+			<link_to>New Orleans, LA</link_to>
+			<distance>864</distance>
+		</link>
+	</transportation_links>
+</network>
+</facilities>

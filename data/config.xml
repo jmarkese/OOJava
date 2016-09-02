@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<source>
+	<path id="network" type="xml" location="data/facilities.xml" />
+	<path id="facilities" type="xml" location="data/facilities.xml" />
+	<path id="items" type="xml" location="data/items.xml" />
+	<path id="inventories" type="xml" location="data/inventories.xml" />
+	<path id="orders" type="xml" location="data/orders.xml" />
+</source>

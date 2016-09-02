@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<orders>
+	<!--<order id="TEST1" day="2" destination="Austin, TX">
+		<item code="TESTING123" qty="200" />
+	</order>
+	<order id="TEST2" day="3" destination="Chicago, IL">
+		<item code="TESTING123" qty="200" />
+	</order>
+	<order id="TEST3" day="1" destination="Miami, FL">
+		<item code="TESTING456" qty="200" />
+	</order>
+	<order id="TEST4" day="5" destination="Detroit, MI">
+		<item code="TESTING123" qty="100" />
+		<item code="TESTING456" qty="100" />
+	</order>
+	<order id="SAMP-1" day="1" destination="Austin, TX">
+		<item code="RL123A" qty="180" />
+	</order>-->
+	<order id="TO-001" day="1" destination="Miami, FL">
+		<item code="ABC123" qty="180" />
+		<item code="CR2032" qty="320" />	
+	</order>
+	<order id="TO-002" day="1" destination="Boston, MA">
+		<item code="PL132-C" qty="5" />
+		<item code="XLK200B" qty="120" />	
+	</order>
+	<order id="TO-003" day="4" destination="Seattle, WA">
+		<item code="E241i" qty="105" />	
+		<item code="XTP202" qty="100" />
+	</order>
+	<order id="TO-004" day="10" destination="Phoenix, AZ">
+		<item code="CR2032" qty="200" />
+		<item code="SR71-D" qty="85" />	
+	</order>
+	<order id="TO-005" day="7" destination="Chicago, IL">
+		<item code="RX100-3" qty="200" />	
+		<item code="XLK200B" qty="120" />
+	</order>
+	<order id="TO-006" day="8" destination="Denver, CO">
+		<item code="CT1928" qty="120" />
+	</order>
+</orders>
